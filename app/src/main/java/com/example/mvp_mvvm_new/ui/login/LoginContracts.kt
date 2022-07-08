@@ -1,7 +1,6 @@
-package com.example.mvp_mvvm_new
+package com.example.mvp_mvvm_new.ui.login
 
 import androidx.annotation.MainThread
-import java.lang.Error
 
 class LoginContracts {
 
