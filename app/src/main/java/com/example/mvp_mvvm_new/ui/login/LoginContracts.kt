@@ -2,7 +2,7 @@ package com.example.mvp_mvvm_new.ui.login
 
 import androidx.annotation.MainThread
 
-class LoginContracts {
+interface LoginContracts {
 
     @MainThread
     interface View {
@@ -12,6 +12,7 @@ class LoginContracts {
         fun hideProgress()
     }
 
+    @MainThread
     interface Presenter {
         fun onAttach(view: View)
         fun onLogin(login: String, password: String)

@@ -6,7 +6,7 @@ import android.os.Handler
 import android.os.Looper
 import com.example.mvp_mvvm_new.data.LoginUsecaseImpl
 import com.example.mvp_mvvm_new.domain.LoginApi
-import com.example.mvp_mvvm_new.data.MockLoginApiImpl
+import com.example.mvp_mvvm_new.data.api.MockLoginApiImpl
 import com.example.mvp_mvvm_new.domain.LoginUsecase
 
 class App: Application() {

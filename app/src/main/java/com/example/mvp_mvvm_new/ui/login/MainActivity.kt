@@ -3,19 +3,14 @@ package com.example.mvp_mvvm_new.ui.login
 import android.app.Activity
 import android.graphics.Color
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.annotation.MainThread
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
-import com.example.mvp_mvvm_new.App
 import com.example.mvp_mvvm_new.app
-import com.example.mvp_mvvm_new.data.LoginUsecaseImpl
 import com.example.mvp_mvvm_new.databinding.ActivityMainBinding
-import com.example.mvp_mvvm_new.domain.LoginUsecase
 
 
 class MainActivity : AppCompatActivity(), LoginContracts.View {
