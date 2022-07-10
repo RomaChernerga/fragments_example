@@ -6,7 +6,7 @@ import com.example.mvp_mvvm_new.domain.LoginUsecase
 
 class LoginUsecaseImpl(
     private val api: LoginApi,
-    private val uiHandler: android.os.Handler
+//    private val uiHandler: android.os.Handler
     ): LoginUsecase {
 
     override fun login(
@@ -16,9 +16,9 @@ class LoginUsecaseImpl(
 
         Thread {
             val result = api.login(login, password)
-            uiHandler.post {
-                callBack(result)
-            }
+            callBack(result)
+//            uiHandler.post {
+//            }
         }.start()
 
     }
